@@ -11,6 +11,7 @@ export default defineConfig({
     outDir: "build",
     chunkSizeWarningLimit: 2000,
   },
+  base: '/Restaurant-App/',
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
     port: "4028",
