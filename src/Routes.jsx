@@ -16,7 +16,7 @@ import NotFound from "pages/NotFound";
 
 const Routes = () => {
   return (
-    <BrowserRouter basename="/Restaurant-App">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ErrorBoundary>
         <ScrollToTop />
         <RouterRoutes>
